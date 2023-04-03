@@ -1,0 +1,7 @@
+from django.urls import path
+from .views import registration_view
+
+urlpatterns = [
+    path('registro/', registration_view, name='registro'),
+    # adicione outras rotas aqui, se necessário
+]
